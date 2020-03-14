@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.fragments.R
+import kotlinx.android.synthetic.main.fragment_b.*
 
 
 class FragmentB : Fragment() {
@@ -17,7 +18,7 @@ class FragmentB : Fragment() {
 
     fun displayDetails(title: String, description: String) {
 
-//        txvTitle.text = title
-//        txvDescription.text = description
+        txvTitle.text = title
+        txvDescription.text = description
     }
 }
